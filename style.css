@@ -40,7 +40,25 @@ body {
   padding: 14px 18px 22px;
 }
 
-.start-logo {
+.top-logos {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 2;
+}
+
+.logo,
+.logo2 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* .start-logo {
   position: absolute;
   top: 2px;
   left: 0;
@@ -48,7 +66,7 @@ body {
   height: 68px;
   object-fit: cover;
   border-radius: 50%;
-}
+} */
 
 .start-content {
   width: 100%;
@@ -160,7 +178,7 @@ body {
   margin-bottom: 18px;
 }
 
-.logo {
+/* .logo {
   position: absolute;
   top: 2px;
   left: 0;
@@ -168,7 +186,7 @@ body {
   height: 68px;
   object-fit: cover;
   border-radius: 50%;
-}
+} */
 
 .header-center {
   width: 100%;
